@@ -200,6 +200,7 @@ It's possible to use an external parameter file, by providing the URI to the fil
 If your template includes a parameter with the same name as one of the parameters in the PowerShell command, PowerShell presents the parameter from your template with the postfix **FromTemplate**. For example, a parameter named **ResourceGroupName** in your template conflicts with the **ResourceGroupName** parameter in the [New-AzResourceGroupDeployment](/powershell/module/az.resources/new-azresourcegroupdeployment) cmdlet. You're prompted to provide a value for **ResourceGroupNameFromTemplate**. You can avoid this confusion by using parameter names that aren't used for deployment commands.
 
 
+
 ## Next steps
 
 - To understand how to define parameters in your template, see [Parameters in Azure Resource Manager templates](template-parameters.md).
